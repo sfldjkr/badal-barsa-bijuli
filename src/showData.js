@@ -67,7 +67,7 @@ let renderTodayData = (
 
 let renderWeeklyData = (allDatas, unit) => {
   weeklyContainer.innerHTML = "";
-  weeklyContainer.innerHTML = `<h2 style="margin-bottom: 40px;">Weekly ForeCast</h2>`;
+  weeklyContainer.innerHTML = `<h2 class='weeklyForeCast'">Weekly ForeCast</h2>`;
   let allDays = [
     "sunday",
     "monday",

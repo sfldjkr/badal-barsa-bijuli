@@ -27,13 +27,13 @@ body {
 }
 
 .header {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  display: flex;
+  justify-content: space-between;
   align-items: center;
 }
 
 .searchBarDiv {
-  justify-self: center;
+  margin: auto;
   width: 70%;
 }
 
@@ -45,12 +45,12 @@ body {
 
 .headers {
   text-align: center;
-  margin: 40px auto 80px;
+  margin: 20px auto 80px;
 }
 
 .currentDiv {
   margin-bottom: 60px;
-  gap: 20px;
+  gap: 50px;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
 }
@@ -137,4 +137,9 @@ body {
     margin-left: 2px;
     padding: 3px 6px;
   }
+}
+
+.weeklyForeCast {
+  margin-top: 100px;
+  margin-bottom: 50px;
 }

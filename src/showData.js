@@ -2,10 +2,10 @@ import moment from "moment";
 import { addUvColorFunc } from "./uvFunc";
 import cloud from "./images/amcharts_weather_icons_1.0.0/animated/cloudy-day-3.svg";
 import haze from "./images/amcharts_weather_icons_1.0.0/animated/cloudy-day-3.svg";
-import clear from "./images/amcharts_weather_icons_1.0.0/animated/weather.svg";
+import clear from "./images/amcharts_weather_icons_1.0.0/animated/day.svg";
 import drizzle from "./images/amcharts_weather_icons_1.0.0/animated/rainy-1.svg";
 import thunderstorm from "./images/amcharts_weather_icons_1.0.0/animated/thunder.svg";
-import rain from "./images/amcharts_weather_icons_1.0.0/animated/day.svg";
+import rain from "./images/amcharts_weather_icons_1.0.0/animated/rainy-1.svg";
 import snow from "./images/amcharts_weather_icons_1.0.0/animated/snowy-1.svg";
 import defaultImg from "./images/amcharts_weather_icons_1.0.0/animated/weather.svg";
 

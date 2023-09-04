@@ -1,0 +1,140 @@
+/* #CCF381 #4831D4 */
+
+.mainIcon {
+  height: 15vw;
+  width: auto;
+  background-blend-mode: lighten;
+}
+body {
+  font-family: "Work Sans", "Roboto", sans-serif;
+  background-color: #4831d4;
+  color: aliceblue;
+  padding: 10px;
+}
+
+.btn:hover {
+  color: #ccf381;
+}
+
+.input-text:focus {
+  box-shadow: 0px 0px 0px;
+  border-color: #ccf381;
+  outline: 0px;
+}
+
+.form-control {
+  border: 1px solid #ccf381;
+}
+
+.header {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+}
+
+.searchBarDiv {
+  justify-self: center;
+  width: 70%;
+}
+
+.fORcBtn {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-self: end;
+}
+
+.headers {
+  text-align: center;
+  margin: 40px auto 80px;
+}
+
+.currentDiv {
+  margin-bottom: 60px;
+  gap: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+}
+
+.allHeaders {
+  text-align: center;
+  margin: auto;
+}
+
+.detailsDiv {
+  margin: auto;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+}
+
+.detailsDiv div > h4,
+.detailsDiv div > p {
+  margin: 1px;
+  padding: 1px;
+}
+
+.weeklyDiv {
+  margin: 20px auto;
+  text-align: center;
+}
+
+.dayDiv {
+  width: 70%;
+  margin: 10px auto;
+  display: grid;
+  grid-template-columns: 2fr auto 1fr 1fr 1fr;
+}
+
+.dayDiv:hover {
+  transform: scale(1.02);
+  font-weight: bold;
+  box-shadow: rgba(139, 130, 206, 0.3) 0px 7px 29px 0px;
+}
+
+.uvIndex {
+  border-radius: 50%;
+  color: black;
+  font-weight: bold;
+}
+
+.fBtn {
+  opacity: 0.4;
+  margin-right: 3px;
+  border-radius: 15px 15px 15px 15px;
+  padding: 7px 14px;
+  border: 1px solid #cdd8e0;
+}
+
+.cBtn {
+  opacity: 0.4;
+  margin-left: 3px;
+  padding: 7px 14px;
+  border-radius: 15px 15px 15px 15px;
+  border: 1px solid #cdd8e0;
+}
+
+.choosed {
+  background-color: #ccf381;
+  border-color: #ccf381;
+  opacity: 0.9;
+  border: 1px solid #cdd8e0;
+}
+
+@media screen and (max-width: 500px) {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-size: smaller;
+  }
+  .fBtn,
+  .cBtn {
+    font-size: smaller;
+    margin-right: 2px;
+    margin-left: 2px;
+    padding: 3px 6px;
+  }
+}
